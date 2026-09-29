@@ -1,0 +1,14 @@
+[key.category.better_fc]
+controls = "Better FC"
+
+[key.better_fc]
+toggle = "Basculer la caméra libre"
+
+  [key.better_fc.controlPlayer]
+  toggle = "Contrôler le joueur"
+
+  [key.better_fc.tripod]
+  reset = "Réinitialiser le tripode"
+
+  [key.better_fc.config]
+  open = "Interface de configuration"

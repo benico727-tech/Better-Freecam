@@ -1,0 +1,12 @@
+[better_fc.msg]
+enabled = "تم تفعيل فري كام."
+disabled = "تم تعطيل فري كام."
+invalidRegex = "ريجكس غير صالح: %s"
+
+  [better_fc.msg.tripod]
+  open = "فتح الكاميرا %s"
+  close = "إغلاق الكاميرا %s"
+  reset = "إعادة تعيين الكاميرا %s"
+
+  [better_fc.msg.restricted]
+  server = "فري كام مقيد على الخادم الحالي (%s)."

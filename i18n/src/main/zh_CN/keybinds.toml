@@ -1,0 +1,14 @@
+[key.category.better_fc]
+controls = "自由视角(Better FC)"
+
+[key.better_fc]
+toggle = "切换自由视角(Better FC)"
+
+  [key.better_fc.controlPlayer]
+  toggle = "控制玩家"
+
+  [key.better_fc.tripod]
+  reset = "重置视角"
+
+  [key.better_fc.config]
+  open = "打开GUI"

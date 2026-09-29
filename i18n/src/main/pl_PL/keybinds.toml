@@ -1,0 +1,14 @@
+[key.category.better_fc]
+controls = "Better FC"
+
+[key.better_fc]
+toggle = "Włącz/Wyłącz Better FC"
+
+  [key.better_fc.controlPlayer]
+  toggle = "Kontroluj Gracza"
+
+  [key.better_fc.tripod]
+  reset = "Resetowanie Statywu"
+
+  [key.better_fc.config]
+  open = "GUI Konfiguracji"

@@ -1,0 +1,12 @@
+[better_fc.msg]
+enabled = "Caméra libre activé."
+disabled = "Caméra libre désactivé."
+invalidRegex = "Regex invalide : %s"
+
+  [better_fc.msg.tripod]
+  open = "Ouverture de la caméra %s"
+  close = "Fermeture de la caméra %s"
+  reset = "Réinitialiser la caméra %s"
+
+  [better_fc.msg.restricted]
+  server = "Caméra libre restreinte sur le serveur actuel (%s)."

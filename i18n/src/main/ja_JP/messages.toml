@@ -1,0 +1,12 @@
+[better_fc.msg]
+enabled = "Better FCが有効になりました。"
+disabled = "Better FCが無効になりました。"
+invalidRegex = "正規表現が無効です: %s"
+
+  [better_fc.msg.tripod]
+  open = "カメラを開く %s"
+  close = "カメラを閉じる %s"
+  reset = "カメラをリセット %s"
+
+  [better_fc.msg.restricted]
+  server = "現在のサーバー (%s) ではBetter FCが制限されています。"

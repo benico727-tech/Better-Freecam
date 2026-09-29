@@ -1,0 +1,12 @@
+[better_fc.msg]
+enabled = "Better FC açıldı."
+disabled = "Better FC kapatıldı."
+invalidRegex = "Geçersiz düzenli ifade: %s"
+
+  [better_fc.msg.tripod]
+  open = "%s kamerası açılıyor"
+  close = "Kamera %s kapatıldı"
+  reset = "Kamera %s sıfırlandı"
+
+  [better_fc.msg.restricted]
+  server = "Better FC şu anki sunucuda (%s) kısıtlı."

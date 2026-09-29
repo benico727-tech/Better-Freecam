@@ -1,0 +1,14 @@
+[key.category.better_fc]
+controls = "Better FC"
+
+[key.better_fc]
+toggle = "Attiva/Disattiva la Better FC"
+
+  [key.better_fc.controlPlayer]
+  toggle = "Controlla il giocatore"
+
+  [key.better_fc.tripod]
+  reset = "Resetta treppiedi"
+
+  [key.better_fc.config]
+  open = "GUI di Configurazione"

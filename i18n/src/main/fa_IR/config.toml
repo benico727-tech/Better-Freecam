@@ -1,0 +1,148 @@
+[better_fc.config.gui]
+title = "تنظیمات فری کم"
+
+  [better_fc.config.gui.fallback]
+  title = "Config GUI not available."
+
+[better_fc.config.controls]
+label = "کلید های میانبر"
+tooltip = "کلید های میانبر فری کم."
+
+[better_fc.config.movement]
+label = "تنظیمات حرکت"
+tooltip = "طوری که دوربین حرکت میکند."
+
+  [better_fc.config.movement.flightMode]
+  label = "حالت پرواز"
+  tooltip = "نوع پروازی که توسط فری کم استفاده می شود."
+  DEFAULT = "پیشفرض"
+  CREATIVE = "حالت خلاق"
+
+  [better_fc.config.movement.speed]
+  value = "Value: %01.2f"
+
+    [better_fc.config.movement.speed.horizontal]
+    label = "سرعت افقی"
+    tooltip = "سرعت افقی فری کم."
+
+    [better_fc.config.movement.speed.vertical]
+    label = "سرعت عمودی"
+    tooltip = "سرعت عمودی فری کم."
+
+[better_fc.config.collision]
+label = "تنظیمات برخورد"
+tooltip = "بلاک هایی که در فری کم می توانید از آن رد شوید."
+
+  [better_fc.config.collision.ignoreAll]
+  label = "نادیده گرفتن تمامی برخورد ها"
+  "tooltip[0]" = "به عبور از همه ی بلاک ها اجازه می دهد."
+  "tooltip[1]" = "§eتنظیمات بالا را نادیده می گیرد."
+
+  [better_fc.config.collision.ignoreTransparent]
+  label = "نادیده گرفتن بلاک های شفاف"
+  tooltip = "به رد شدن از بلاک های شفاف در فری کم اجازه می دهد."
+
+  [better_fc.config.collision.ignoreOpenable]
+  label = "نادیده گرفتن بلاک های قابل باز شدن"
+  tooltip = "به رد شدن از در ها/دریچه ها/دروازه ها در فری کم اجازه می دهد."
+
+  [better_fc.config.collision.ignoreCustom]
+  label = "لیست نادیده گرفتن شخصی سازی شده"
+  tooltip = "به رد شدن از بلاک خاص در فری کم اجازه می دهد."
+
+[better_fc.config.collision.whitelist.ids]
+label = "نادیده گرفتن آی دی ها"
+"tooltip[0]" = 'از آی دی بلاک استفاده کنید، مثل "grass_block".'
+"tooltip[1]" = 'اگر namespace داده نشود، "minecraft:" فرض می شود.'
+
+[better_fc.config.collision.whitelist.patterns]
+label = "نادیده گرفتن عبارت های Regular Expression"
+"tooltip[0]" = "از ترکیب Regular Expression استفاده کنید."
+"tooltip[1]" = 'با آی دی کامل بلاک مفایسه می شود، مثل "minecraft:grass_block".'
+
+  [better_fc.config.collision.alwaysCheck]
+  label = "بررسی همیشگی برخورد اولیه"
+  "tooltip[0]" = "اینکه §7دید اولیه§r باید برای برخورد چک کند، حتی"
+  "tooltip[1]" = "موقع استفاده از §7نادیده کرفتن تمامی برخورد ها§r."
+
+[better_fc.config.visual]
+label = "تنظیمات بصری"
+tooltip = "ظاهر فری کم."
+
+  [better_fc.config.visual.perspective]
+  label = "دید اولیه"
+  tooltip = "دید اولیه دوربین."
+  FIRST_PERSON = "اول شخص"
+  THIRD_PERSON = "سوم شخص"
+  THIRD_PERSON_MIRROR = "معکوس کردن"
+  INSIDE = "داخل"
+
+  [better_fc.config.visual.showPlayer]
+  label = "نمایش بازیکن"
+  tooltip = "بازیکن را در موقعیت اصلی نشان می دهد."
+
+  [better_fc.config.visual.showHand]
+  label = "نمایش دست"
+  tooltip = "اینکه دست خود را در فری کم ببینید."
+
+  [better_fc.config.visual.fullBright]
+  label = "روشنایی کامل"
+  tooltip = "روشنایی را حین بودن در فری کم افزایش می دهد."
+
+  [better_fc.config.visual.showSubmersionFog]
+  label = "نمایش مه غوطه وری"
+  tooltip = "اینکه شما یک پوششی از مه در زیر آب، گدازه یا برف پودر شده ببینید."
+
+[better_fc.config.utility]
+label = "تنظیمات کاربردی"
+tooltip = "بهبود های فری کم."
+
+  [better_fc.config.utility.disableOnDamage]
+  label = "غیرفعال کردن موقع آسیب دیدن"
+  tooltip = "وقتی آسیب میبینید فری کم غیرفعال می شود."
+
+  [better_fc.config.utility.freezePlayer]
+  label = "تثبیت بازیکن"
+  "tooltip[0]" = "وقتی فری کم فعال است از حرکت بازیکن جلوگیری میکند."
+  "tooltip[1]" = "§cاخطار: استفاده در چند نفره توصیه نمی شود."
+
+[better_fc.config.utility.interact.allow]
+label = "اجازه دادن به تعامل"
+"tooltip[0]" = "اینکه شما بتوانید با بلاک ها/انتیتی ها در فری کم تعامل کنید."
+"tooltip[1]" = "§cاخطار: استفاده در چند نفره توصیه نمی شود."
+
+[better_fc.config.utility.interact.mode]
+label = "حالت تعامل"
+tooltip = "منبع تعامل با بلاک ها/انتیتی ها."
+CAMERA = "دوربین"
+PLAYER = "بازیکن"
+
+[better_fc.config.servers]
+label = "تنظیمات چند نفره"
+tooltip = "تنظیمات مرتبط با سرور های چند نفره."
+
+  [better_fc.config.servers.mode]
+  label = "حالت محدودیت"
+  "tooltip[0]" = "اجازه یا منع از استفاده فری کم بر بعضی سرور ها."
+  "tooltip[1]" = "(با استفاده از لیست منع یا لیست مجاز)."
+  NONE = "بدون محدودیت"
+  WHITELIST = "لیست مجاز"
+  BLACKLIST = "لیست منع"
+
+  [better_fc.config.servers.whitelist]
+  label = "لیست مجاز:"
+
+  [better_fc.config.servers.blacklist]
+  label = "لیست منع:"
+
+[better_fc.config.notification]
+label = "تنظیمات اعلان ها"
+tooltip = "نمایش یا پنهان کردن اعلان ها."
+
+  [better_fc.config.notification.better_fc]
+  label = "اعلان های فری کم"
+  tooltip = "وقتی به فری کم وارد یا از آن خارج می شوید به شما اطلاع می دهد."
+
+  [better_fc.config.notification.tripod]
+  label = "اعلان های دوربین سه‌پایه"
+  tooltip = "وقتی به دوربین سه‌پایه وارد یا از آن خارج می شوید به شما اطلاع می دهد."

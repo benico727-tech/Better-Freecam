@@ -1,0 +1,8 @@
+[key.category]
+better_fc.controls = "Better FC"
+
+[key.better_fc]
+toggle = "Toggle Better FC"
+controlPlayer.toggle = "Control Player"
+tripod.reset = "Reset Tripod"
+config.open = "Config GUI"
