@@ -1,0 +1,12 @@
+[better_fc.msg]
+enabled = "Better FC 已启用。"
+disabled = "Better FC 已禁用。"
+invalidRegex = "无效的正则表达式：%s"
+
+  [better_fc.msg.tripod]
+  open = "启用视角 %s"
+  close = "禁用视角 %s"
+  reset = "重置视角 %s"
+
+  [better_fc.msg.restricted]
+  server = "Better FC 在本服务器禁止使用。（%s）"

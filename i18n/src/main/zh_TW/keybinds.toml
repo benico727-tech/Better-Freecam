@@ -1,0 +1,14 @@
+[key.category.better_fc]
+controls = "Better FC"
+
+[key.better_fc]
+toggle = "切換 Better FC"
+
+  [key.better_fc.controlPlayer]
+  toggle = "控制玩家"
+
+  [key.better_fc.tripod]
+  reset = "重設三腳架"
+
+  [key.better_fc.config]
+  open = "設定 GUI"

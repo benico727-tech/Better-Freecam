@@ -1,0 +1,20 @@
+[mod]
+name = "Better FC"
+id = "better_fc"
+group = "dev.hexoforge.betterfc"
+# Version can specify a semver pre-release, e.g. -alpha.1
+# Remember to run :changelog:patchChangelog when updating
+version = "1.0.0"
+authors = ["HexoForge"]
+license = "MIT"
+homepage = "https://github.com/benico727-tech/Better-Freecam"
+source = "https://github.com/benico727-tech/Better-Freecam"
+issues = "https://github.com/benico727-tech/Better-Freecam/issues"
+github_releases = "https://github.com/benico727-tech/Better-Freecam/releases"
+# No Better-Freecam accounts exist on these services yet. Keep the required
+# metadata fields neutral, and configure real project URLs/IDs before release.
+curseforge = "https://github.com/benico727-tech/Better-Freecam"
+modrinth = "https://github.com/benico727-tech/Better-Freecam"
+crowdin = "https://github.com/benico727-tech/Better-Freecam"
+curseforge_id = 0
+modrinth_id = ""

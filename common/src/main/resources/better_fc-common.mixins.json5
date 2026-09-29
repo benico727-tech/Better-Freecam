@@ -1,0 +1,31 @@
+{
+  "required": true,
+  "package": "dev.hexoforge.betterfc.mixins",
+  "plugin": "dev.hexoforge.betterfc.BetterFCMixinConfig",
+  "compatibilityLevel": "${mixinCompatLevel}",
+  "minVersion": "0.8",
+  "client": [
+    "AvatarRendererMixin",
+    "BlockStateBaseMixin",
+    "CameraMixin",
+    "ClientPacketListenerMixin",
+    "EntityMixin",
+    "EntityRenderDispatcherMixin",
+    "FullBrightMixin",
+    "GameRendererMixin",
+    "GuiMixin",
+    "IrisHandRendererMixin",
+    //? if <1.21.6
+    //"IrisShadowRendererMixin",
+    "ItemInHandRendererMixin",
+    "LivingEntityMixin",
+    "LocalPlayerMixin",
+    "MinecraftMixin",
+    "MouseHandlerMixin",
+    "MultiPlayerGameModeMixin",
+    "OptionsMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

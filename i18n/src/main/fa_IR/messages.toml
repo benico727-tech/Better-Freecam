@@ -1,0 +1,12 @@
+[better_fc.msg]
+enabled = "فری کم روشن شد."
+disabled = "فری کم خاموش شد."
+invalidRegex = "ترکیب regex غیرمعتبر: %s"
+
+  [better_fc.msg.tripod]
+  open = "در حال باز کردن دوربین %s"
+  close = "در حال بستن دوربین %s"
+  reset = "ریست دوربین %s"
+
+  [better_fc.msg.restricted]
+  server = "فری کم در این سرور محدود شده است (%s)."

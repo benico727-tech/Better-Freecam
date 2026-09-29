@@ -1,0 +1,14 @@
+[key.category.better_fc]
+controls = "Better FC"
+
+[key.better_fc]
+toggle = "Better FC Umschalten"
+
+  [key.better_fc.controlPlayer]
+  toggle = "Spieler Kontrollieren"
+
+  [key.better_fc.tripod]
+  reset = "Stativ zurücksetzen"
+
+  [key.better_fc.config]
+  open = "Konfigurationsmenü"

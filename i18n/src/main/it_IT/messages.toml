@@ -1,0 +1,12 @@
+[better_fc.msg]
+enabled = "La Camera libera è stata abilitata."
+disabled = "La Camera è stata disattivata."
+invalidRegex = "Espressione non valida:%s"
+
+  [better_fc.msg.tripod]
+  open = "Apri la Camera %s"
+  close = "Chiudi la Camera %s"
+  reset = "Resetta la Camera %s"
+
+  [better_fc.msg.restricted]
+  server = "La Camera libera è limitata sul server attuale (%s)."

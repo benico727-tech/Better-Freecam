@@ -1,0 +1,12 @@
+[better_fc.msg]
+enabled = "Better FC habilitado."
+disabled = "Better FC desabilitado."
+invalidRegex = "Expressão inválida: %s"
+
+  [better_fc.msg.tripod]
+  open = "A abrir câmara %s"
+  close = "A fechar câmara %s"
+  reset = "Redefinir câmara %s"
+
+  [better_fc.msg.restricted]
+  server = "O Better FC é restrito neste servidor (%s)."

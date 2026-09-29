@@ -1,0 +1,148 @@
+[better_fc.config.gui]
+title = "Options pour la caméra libre"
+
+  [better_fc.config.gui.fallback]
+  title = "Config GUI not available."
+
+[better_fc.config.controls]
+label = "Raccourcis"
+tooltip = "Raccourcis pour la caméra libre."
+
+[better_fc.config.movement]
+label = "Mouvements"
+tooltip = "Comment la caméra se déplace."
+
+  [better_fc.config.movement.flightMode]
+  label = "Types de vol"
+  tooltip = "La façon dont la caméra libre vole."
+  DEFAULT = "Défaut"
+  CREATIVE = "Créatif"
+
+  [better_fc.config.movement.speed]
+  value = "Value: %01.2f"
+
+    [better_fc.config.movement.speed.horizontal]
+    label = "Vitesse horizontale"
+    tooltip = "La vitesse horizontale de la caméra libre."
+
+    [better_fc.config.movement.speed.vertical]
+    label = "Vitesse verticale"
+    tooltip = "La vitesse verticale de la caméra libre."
+
+[better_fc.config.collision]
+label = "Collisions"
+tooltip = "Les blocs que vous pouvez traverser en caméra libre."
+
+  [better_fc.config.collision.ignoreAll]
+  label = "Ignorer toutes les collisions"
+  "tooltip[0]" = "Permets de traverser tous les blocs en caméra libre."
+  "tooltip[1]" = "§eRemplace les paramètres précédents."
+
+  [better_fc.config.collision.ignoreTransparent]
+  label = "Ignorer les blocs transparents"
+  tooltip = "Permets de traverser les blocs transparents avec la caméra libre."
+
+  [better_fc.config.collision.ignoreOpenable]
+  label = "Ignorer les blocs ouvrables"
+  tooltip = "Permets de traverser les portes/portillons/trappes en caméra libre."
+
+  [better_fc.config.collision.ignoreCustom]
+  label = "Liste personnalisée"
+  tooltip = "Permets de traverser certains blocs spécifiques en caméra libre."
+
+[better_fc.config.collision.whitelist.ids]
+label = "Ignorer des IDs :"
+"tooltip[0]" = "Utilisez l'id d'un bloc, comme \"grass_block\"."
+"tooltip[1]" = 'Si le namespace est omis, "minecraft:" est utilisé.'
+
+[better_fc.config.collision.whitelist.patterns]
+label = "Ignorer des expressions régulières :"
+"tooltip[0]" = "Utilisez la syntaxe des expressions régulières."
+"tooltip[1]" = "L'expression régulière se compare avec l'identifiant complet du bloc, par exemple \"minecraft:grass_block\"."
+
+  [better_fc.config.collision.alwaysCheck]
+  label = "Toujours vérifier la collision initiale"
+  "tooltip[0]" = "Si §7Perspective initiale§r doit vérifier les"
+  "tooltip[1]" = "collisions, même en utilisant §7Ignorer toutes les collisions§r."
+
+[better_fc.config.visual]
+label = "Visuels"
+tooltip = "L'apparence de la caméra libre."
+
+  [better_fc.config.visual.perspective]
+  label = "Perspective initiale"
+  tooltip = "La perspective initiale de la caméra libre."
+  FIRST_PERSON = "Première personne"
+  THIRD_PERSON = "Troisième personne"
+  THIRD_PERSON_MIRROR = "Miroir"
+  INSIDE = "Intérieur"
+
+  [better_fc.config.visual.showPlayer]
+  label = "Montrer le joueur"
+  tooltip = "Montre votre personnage là où vous avez activé la caméra libre."
+
+  [better_fc.config.visual.showHand]
+  label = "Afficher la main"
+  tooltip = "Si vous pouvez voir votre main dans la caméra libre."
+
+  [better_fc.config.visual.fullBright]
+  label = "Luminosité maximum"
+  tooltip = "Augmente la luminosité en caméra libre."
+
+  [better_fc.config.visual.showSubmersionFog]
+  label = "Afficher le brouillard de submersion"
+  tooltip = "Si vous pouvez voir le brouillard sous la lave, l'eau, etc. en caméra libre."
+
+[better_fc.config.utility]
+label = "Utilitaires"
+tooltip = "Utilitaires pour la caméra libre."
+
+  [better_fc.config.utility.disableOnDamage]
+  label = "Désactiver lorsque blessé"
+  tooltip = "Désactive la caméra libre lorsque le joueur reçoit des dégâts."
+
+  [better_fc.config.utility.freezePlayer]
+  label = "Geler le joueur"
+  "tooltip[0]" = "Empêche les mouvements du joueur quand la caméra libre est activé."
+  "tooltip[1]" = "§cAVERTISSEMENT : Déconseillé en multijoueur."
+
+[better_fc.config.utility.interact.allow]
+label = "Autoriser les interactions"
+"tooltip[0]" = "Si vous pouvez interagir avec les blocs/entités pendant la caméra libre."
+"tooltip[1]" = "§cAVERTISSEMENT : Déconseillé en multijoueur."
+
+[better_fc.config.utility.interact.mode]
+label = "Mode d'interaction"
+tooltip = "La source de l'interaction avec les blocs/entités."
+CAMERA = "Caméra"
+PLAYER = "Joueur"
+
+[better_fc.config.servers]
+label = "Multijoueurs"
+tooltip = "Options en rapport avec les serveurs multijoueurs."
+
+  [better_fc.config.servers.mode]
+  label = "Mode restreint"
+  "tooltip[0]" = "Permets ou non d'utiliser la caméra libre sur certains serveurs"
+  "tooltip[1]" = "(en utilisant une liste blanche ou une liste noire)."
+  NONE = "Pas de restrictions"
+  WHITELIST = "Liste blanche"
+  BLACKLIST = "Liste noire"
+
+  [better_fc.config.servers.whitelist]
+  label = "Liste blanche :"
+
+  [better_fc.config.servers.blacklist]
+  label = "Liste noire :"
+
+[better_fc.config.notification]
+label = "Notifications"
+tooltip = "Afficher ou cacher les notifications."
+
+  [better_fc.config.notification.better_fc]
+  label = "Notifications de la caméra libre"
+  tooltip = "Vous avertit lorsque vous entrez ou sortez de la caméra libre."
+
+  [better_fc.config.notification.tripod]
+  label = "Notifications du tripode"
+  tooltip = "Vous avertit lorsque vous entrez ou sortez de caméras de tripode."

@@ -1,0 +1,148 @@
+[better_fc.config.gui]
+title = "Better FCのオプション"
+
+  [better_fc.config.gui.fallback]
+  title = "Config GUI not available."
+
+[better_fc.config.controls]
+label = "キー割り当て"
+tooltip = "Better FCのキー割り当て。"
+
+[better_fc.config.movement]
+label = "移動オプション"
+tooltip = "カメラの動き方。"
+
+  [better_fc.config.movement.flightMode]
+  label = "飛行モード"
+  tooltip = "Better FCが使用するフライトのタイプ。"
+  DEFAULT = "デフォルト"
+  CREATIVE = "クリエイティブ"
+
+  [better_fc.config.movement.speed]
+  value = "Value: %01.2f"
+
+    [better_fc.config.movement.speed.horizontal]
+    label = "水平速度"
+    tooltip = "Better FCの水平速度。"
+
+    [better_fc.config.movement.speed.vertical]
+    label = "垂直速度"
+    tooltip = "Better FCの垂直速度。"
+
+[better_fc.config.collision]
+label = "衝突オプション"
+tooltip = "Better FCで移動可能なブロック。"
+
+  [better_fc.config.collision.ignoreAll]
+  label = "すべての衝突を無視する"
+  "tooltip[0]" = "Better FCのすべてのブロックを通過できるようにする。"
+  "tooltip[1]" = "§e上記の設定を上書きします。"
+
+  [better_fc.config.collision.ignoreTransparent]
+  label = "透明ブロックを無視する"
+  tooltip = "Better FCで透明なブロックを通過できるようにする。"
+
+  [better_fc.config.collision.ignoreOpenable]
+  label = "開閉可能なブロックを無視する"
+  tooltip = "Better FCでドア/トラップドア/ゲートを通過できるようにする。"
+
+  [better_fc.config.collision.ignoreCustom]
+  label = "カスタム無視リスト"
+  tooltip = "Better FCで特定のブロックを移動できるようにする。"
+
+[better_fc.config.collision.whitelist.ids]
+label = "IDを無視する"
+"tooltip[0]" = '例えば "grass_block" のようにブロックIDを使用します。'
+"tooltip[1]" = '名前空間が省略された場合、"minecraft:" と仮定されます。'
+
+[better_fc.config.collision.whitelist.patterns]
+label = "正規表現を無視する"
+"tooltip[0]" = "正規表現を使用する"
+"tooltip[1]" = '"minecraft:grass_block" などのフルブロック ID と一致しました。'
+
+  [better_fc.config.collision.alwaysCheck]
+  label = "初期衝突を常にチェックする"
+  "tooltip[0]" = "§7すべての衝突を無視§r を使用している場合でも、"
+  "tooltip[1]" = "§7初期視点§r で衝突をチェックするかどうか。"
+
+[better_fc.config.visual]
+label = "ビジュアルオプション"
+tooltip = "Better FCの外観。"
+
+  [better_fc.config.visual.perspective]
+  label = "初期視点"
+  tooltip = "カメラの初期視点。"
+  FIRST_PERSON = "一人称"
+  THIRD_PERSON = "三人称"
+  THIRD_PERSON_MIRROR = "ミラー"
+  INSIDE = "内部"
+
+  [better_fc.config.visual.showPlayer]
+  label = "プレーヤーを表示"
+  tooltip = "プレーヤーを元の位置に表示します。"
+
+  [better_fc.config.visual.showHand]
+  label = "手を表示"
+  tooltip = "Better FCで自分の手が見えるかどうか。"
+
+  [better_fc.config.visual.fullBright]
+  label = "最大の明るさ"
+  tooltip = "Better FC時の明るさを上げる。"
+
+  [better_fc.config.visual.showSubmersionFog]
+  label = "水没霧を表示"
+  tooltip = "水中、溶岩、または粉雪の中で霧がかかっているのが見えるかどうか。"
+
+[better_fc.config.utility]
+label = "ユーティリティオプション"
+tooltip = "Better FCの機能強化。"
+
+  [better_fc.config.utility.disableOnDamage]
+  label = "ダメージ時に無効化"
+  tooltip = "ダメージを受けるとBetter FCが無効になります。"
+
+  [better_fc.config.utility.freezePlayer]
+  label = "フリーズプレイヤー"
+  "tooltip[0]" = "フリーカムがアクティブな間、プレーヤーの移動を防ぎます。"
+  "tooltip[1]" = "§c警告: マルチプレイヤーでの使用はお勧めしません。"
+
+[better_fc.config.utility.interact.allow]
+label = "インタラクションを許可する"
+"tooltip[0]" = "Better FCでブロック/エンティティを操作できるかどうか。"
+"tooltip[1]" = "§c警告: マルチプレイヤーでの使用はお勧めしません。"
+
+[better_fc.config.utility.interact.mode]
+label = "インタラクションモード"
+tooltip = "ブロック/エンティティ相互作用のソース。"
+CAMERA = "カメラ"
+PLAYER = "プレーヤー"
+
+[better_fc.config.servers]
+label = "マルチプレイヤーオプション"
+tooltip = "マルチプレイヤーサーバーに関するオプション。"
+
+  [better_fc.config.servers.mode]
+  label = "制限モード"
+  "tooltip[0]" = "特定のサーバーでのBetter FCの使用を許可しません。"
+  "tooltip[1]" = "(ホワイトリストまたはブラックリストを使用。)"
+  NONE = "制限なし"
+  WHITELIST = "ホワイトリスト"
+  BLACKLIST = "ブラックリスト"
+
+  [better_fc.config.servers.whitelist]
+  label = "ホワイトリスト:"
+
+  [better_fc.config.servers.blacklist]
+  label = "ブラックリスト:"
+
+[better_fc.config.notification]
+label = "通知オプション"
+tooltip = "通知を表示または非表示にします。"
+
+  [better_fc.config.notification.better_fc]
+  label = "Better FC通知"
+  tooltip = "Better FCへの入室/退室を通知します。"
+
+  [better_fc.config.notification.tripod]
+  label = "三脚の通知"
+  tooltip = "三脚カメラへの入室/退室を通知します。"

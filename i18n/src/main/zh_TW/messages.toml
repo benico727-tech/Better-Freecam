@@ -1,0 +1,12 @@
+[better_fc.msg]
+enabled = "Better FC 已啟用。"
+disabled = "Better FC 已停用。"
+invalidRegex = "無效的規則運算式：%s"
+
+  [better_fc.msg.tripod]
+  open = "開啟攝影機 %s"
+  close = "關閉攝影機 %s"
+  reset = "重設攝影機 %s"
+
+  [better_fc.msg.restricted]
+  server = "目前的伺服器限制使用 Better FC (%s)。"

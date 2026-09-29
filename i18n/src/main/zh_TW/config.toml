@@ -1,0 +1,148 @@
+[better_fc.config.gui]
+title = "靈魂出竅選項"
+
+  [better_fc.config.gui.fallback]
+  title = "Config GUI not available."
+
+[better_fc.config.controls]
+label = "按鍵綁定"
+tooltip = "Better FC 按鍵綁定。"
+
+[better_fc.config.movement]
+label = "移動選項"
+tooltip = "攝影機的移動方式。"
+
+  [better_fc.config.movement.flightMode]
+  label = "飛行模式"
+  tooltip = "Better FC 使用的飛行類型。"
+  DEFAULT = "預設"
+  CREATIVE = "創造模式飛行"
+
+  [better_fc.config.movement.speed]
+  value = "Value: %01.2f"
+
+    [better_fc.config.movement.speed.horizontal]
+    label = "水平移動速度"
+    tooltip = "靈魂出竅的水平速度。"
+
+    [better_fc.config.movement.speed.vertical]
+    label = "垂直速度"
+    tooltip = "Better FC 的垂直速度。"
+
+[better_fc.config.collision]
+label = "碰撞選項"
+tooltip = "你可以在 Better FC 中穿過的方塊。"
+
+  [better_fc.config.collision.ignoreAll]
+  label = "忽略所有碰撞"
+  "tooltip[0]" = "允許在 Better FC 中穿過所有方塊。"
+  "tooltip[1]" = "§e覆蓋以上設定。"
+
+  [better_fc.config.collision.ignoreTransparent]
+  label = "無視透明方塊"
+  tooltip = "允許在 Better FC 中穿過透明方塊。"
+
+  [better_fc.config.collision.ignoreOpenable]
+  label = "忽略可開啟方塊"
+  tooltip = "允許 Better FC 穿過門/地板門/柵欄門。"
+
+  [better_fc.config.collision.ignoreCustom]
+  label = "自訂忽略清單"
+  tooltip = "允許在靈魂出竅中穿過特定方塊。"
+
+[better_fc.config.collision.whitelist.ids]
+label = "忽略 ID"
+"tooltip[0]" = '使用方塊 ID，例如 "grass_block"。'
+"tooltip[1]" = '如果省略命名空間，則假定為 "minecraft:"。'
+
+[better_fc.config.collision.whitelist.patterns]
+label = "忽略規則運算式"
+"tooltip[0]" = "使用規則運算式語法。"
+"tooltip[1]" = '以完整方塊 ID 比對，例如 "minecraft:grass_block"。'
+
+  [better_fc.config.collision.alwaysCheck]
+  label = "一律檢查初始碰撞"
+  "tooltip[0]" = "即使使用 §7忽略所有碰撞§r，"
+  "tooltip[1]" = "§7初始視角§r 是否也應檢查碰撞。"
+
+[better_fc.config.visual]
+label = "視覺選項"
+tooltip = "Better FC 的外觀。"
+
+  [better_fc.config.visual.perspective]
+  label = "初始視角"
+  tooltip = "攝影機的初始視角。"
+  FIRST_PERSON = "第一人稱"
+  THIRD_PERSON = "第三人稱"
+  THIRD_PERSON_MIRROR = "鏡像"
+  INSIDE = "內部"
+
+  [better_fc.config.visual.showPlayer]
+  label = "顯示玩家"
+  tooltip = "在原始位置顯示你的玩家。"
+
+  [better_fc.config.visual.showHand]
+  label = "顯示手"
+  tooltip = "是否在 Better FC 中顯示你的手。"
+
+  [better_fc.config.visual.fullBright]
+  label = "最高亮度"
+  tooltip = "在 Better FC 中提高亮度。"
+
+  [better_fc.config.visual.showSubmersionFog]
+  label = "顯示水中霧氣"
+  tooltip = "是否在水下、熔岩或粉雪中顯示霧氣覆蓋。"
+
+[better_fc.config.utility]
+label = "實用選項"
+tooltip = "Better FC 的增強功能。"
+
+  [better_fc.config.utility.disableOnDamage]
+  label = "受傷時停用"
+  tooltip = "受傷時停用 Better FC。"
+
+  [better_fc.config.utility.freezePlayer]
+  label = "凍結玩家"
+  "tooltip[0]" = "在 Better FC 啟用時防止玩家移動。"
+  "tooltip[1]" = "§c警告：不建議在多人遊戲中使用。"
+
+[better_fc.config.utility.interact.allow]
+label = "允許互動"
+"tooltip[0]" = "是否可以在 Better FC 中與方塊/實體互動。"
+"tooltip[1]" = "§c警告：不建議在多人遊戲中使用。"
+
+[better_fc.config.utility.interact.mode]
+label = "互動模式"
+tooltip = "方塊/實體互動的來源。"
+CAMERA = "攝影機"
+PLAYER = "玩家"
+
+[better_fc.config.servers]
+label = "多人遊戲選項"
+tooltip = "與多人遊戲伺服器相關的選項。"
+
+  [better_fc.config.servers.mode]
+  label = "限制模式"
+  "tooltip[0]" = "允許或禁止在某些伺服器上使用 Better FC。"
+  "tooltip[1]" = "（使用白名單或黑名單）。"
+  NONE = "沒有限制"
+  WHITELIST = "白名單"
+  BLACKLIST = "黑名單"
+
+  [better_fc.config.servers.whitelist]
+  label = "白名單："
+
+  [better_fc.config.servers.blacklist]
+  label = "黑名單："
+
+[better_fc.config.notification]
+label = "通知選項"
+tooltip = "顯示/隱藏通知"
+
+  [better_fc.config.notification.better_fc]
+  label = "Better FC 通知"
+  tooltip = "在進入/離開 Better FC 時通知你。"
+
+  [better_fc.config.notification.tripod]
+  label = "三腳架通知"
+  tooltip = "在進入/離開三腳架攝影機時通知你。"

@@ -1,0 +1,148 @@
+[better_fc.config.gui]
+title = "Better FC Optionen"
+
+  [better_fc.config.gui.fallback]
+  title = "Konfigurations-GUI nicht verfügbar."
+
+[better_fc.config.controls]
+label = "Tastenbelegung"
+tooltip = "Better FC Tastenbelegung."
+
+[better_fc.config.movement]
+label = "Bewegungsoptionen"
+tooltip = "Wie sich die Kamera bewegt."
+
+  [better_fc.config.movement.flightMode]
+  label = "Flugmodus"
+  tooltip = "Von Better FC verwendeter Flugtyp."
+  DEFAULT = "Standard"
+  CREATIVE = "Kreativ"
+
+  [better_fc.config.movement.speed]
+  value = "Wert: %01.2f"
+
+    [better_fc.config.movement.speed.horizontal]
+    label = "Horizontale Geschwindigkeit"
+    tooltip = "Horizontale Geschwindigkeit von Better FC."
+
+    [better_fc.config.movement.speed.vertical]
+    label = "Vertikale Geschwindigkeit"
+    tooltip = "Die vertikale Geschwindigkeit von Better FC."
+
+[better_fc.config.collision]
+label = "Kollisionsoptionen"
+tooltip = "Durch welche Blöcke du in Better FC fliegen kannst."
+
+  [better_fc.config.collision.ignoreAll]
+  label = "Alle Kollision ignorieren"
+  "tooltip[0]" = "Ermöglicht das Bewegen durch alle Blöcke in Better FC."
+  "tooltip[1]" = "§eÜberschreibt obere Einstellungen."
+
+  [better_fc.config.collision.ignoreTransparent]
+  label = "Transparente Blöcke ignorieren"
+  tooltip = "Ermöglicht das Bewegen durch transparente Blöcke in Better FC."
+
+  [better_fc.config.collision.ignoreOpenable]
+  label = "Öffenbare Blöcke Ignorieren"
+  tooltip = "Ermöglicht das Bewegen durch Türen/Falltüren/Tore in Better FC."
+
+  [better_fc.config.collision.ignoreCustom]
+  label = "Benutzerdefinierte Ignorierliste"
+  tooltip = "Ermöglicht das Bewegen durch bestimmte Blöcke in Better FC."
+
+[better_fc.config.collision.whitelist.ids]
+label = "IDs ignorieren"
+"tooltip[0]" = 'Benutze die Block-ID, z.B. "grass_block".'
+"tooltip[1]" = 'Wenn der Namensraum weggelassen wird, wird "minecraft:" angenommen.'
+
+[better_fc.config.collision.whitelist.patterns]
+label = "Reguläre Ausdrücke ignorieren"
+"tooltip[0]" = "Verwende reguläre Ausdruckssyntax."
+"tooltip[1]" = 'Auf volle Block-id gegengeprüft, z.B. "minecraft:grass_block".'
+
+  [better_fc.config.collision.alwaysCheck]
+  label = "Erste Kollision immer überprüfen"
+  "tooltip[0]" = "Ob §7Erste Perspektive$r auf Kollisionen prüfen soll,"
+  "tooltip[1]" = "Auch bei Verwendung von $7Alle Kollisionen Ignorieren§r."
+
+[better_fc.config.visual]
+label = "Visuelle Optionen"
+tooltip = "Das Aussehen von Better FC."
+
+  [better_fc.config.visual.perspective]
+  label = "Initiale Perspektive"
+  tooltip = "Initiale Perspektive der Kamera."
+  FIRST_PERSON = "First Person"
+  THIRD_PERSON = "Außenansicht"
+  THIRD_PERSON_MIRROR = "Spiegel"
+  INSIDE = "Innen"
+
+  [better_fc.config.visual.showPlayer]
+  label = "Spieler anzeigen"
+  tooltip = "Zeigt Ihren Spieler in seiner Originalposition."
+
+  [better_fc.config.visual.showHand]
+  label = "Hand anzeigen"
+  tooltip = "Ob deine Hand in Better FC zu sehen ist."
+
+  [better_fc.config.visual.fullBright]
+  label = "Volle Helligkeit"
+  tooltip = "Erhöht Helligkeit im Better FC."
+
+  [better_fc.config.visual.showSubmersionFog]
+  label = "Unterwassernebel anzeige"
+  tooltip = "Ob du Nebel Unterwasser, in Lava oder in Pulverschnee siehst."
+
+[better_fc.config.utility]
+label = "Utility Optionen"
+tooltip = "Better FC Verbesserungen."
+
+  [better_fc.config.utility.disableOnDamage]
+  label = "Bei Schaden deaktivieren"
+  tooltip = "Deaktiviert Better FC, wenn man Schaden bekommt."
+
+  [better_fc.config.utility.freezePlayer]
+  label = "Spieler einfrieren"
+  "tooltip[0]" = "Verhindert Spieler Bewegung, während Better FC aktiviert ist."
+  "tooltip[1]" = "$cWARNUNG: Mehrspielernutzung nicht empfohlen."
+
+[better_fc.config.utility.interact.allow]
+label = "Interaktion erlauben"
+"tooltip[0]" = "Ob du mit Blöcken/Entities im Better FC interagieren kannst."
+"tooltip[1]" = "$cWARNUNG: Mehrspielernutzung nicht empfohlen."
+
+[better_fc.config.utility.interact.mode]
+label = "Interaktionsmodus"
+tooltip = "Die Quelle für Block/Entität Interaktionen."
+CAMERA = "Kamera"
+PLAYER = "Spieler"
+
+[better_fc.config.servers]
+label = "Mehrspieler Optionen"
+tooltip = "Optionen in Bezug auf Mehrspieler Servers."
+
+  [better_fc.config.servers.mode]
+  label = "Einschränkungsmodus"
+  "tooltip[0]" = "Better FC auf bestimmten Servers erlauben oder verbieten."
+  "tooltip[1]" = "(entweder eine Whitelist oder Blacklist verwenden)."
+  NONE = "Keine Einschränkungen"
+  WHITELIST = "Ausnahmeliste"
+  BLACKLIST = "Nutzer blocken"
+
+  [better_fc.config.servers.whitelist]
+  label = "Ausnahmeliste:"
+
+  [better_fc.config.servers.blacklist]
+  label = "Blacklist:"
+
+[better_fc.config.notification]
+label = "Benachrichtigungsoptionen"
+tooltip = "Benachrichtigungen anzeigen oder verstecken."
+
+  [better_fc.config.notification.better_fc]
+  label = "Better FC Benachrichtigungen"
+  tooltip = "Benachrichtigt dich, wenn du Better FC betrittst/verlässt."
+
+  [better_fc.config.notification.tripod]
+  label = "Stativ Benachrichtigungen"
+  tooltip = "Benachrichtigt dich, wenn du Stativkameras betrittst/verlässt."

@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "dev.hexoforge.betterfc.fabric.mixins",
+  "plugin": "dev.hexoforge.betterfc.BetterFCMixinConfig",
+  "compatibilityLevel": "${mixinCompatLevel}",
+  "minVersion": "0.8",
+  "client": [
+    "LevelRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

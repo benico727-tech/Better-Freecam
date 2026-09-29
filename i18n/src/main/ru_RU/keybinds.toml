@@ -1,0 +1,14 @@
+[key.category.better_fc]
+controls = "Better FC"
+
+[key.better_fc]
+toggle = "Переключить Better FC"
+
+  [key.better_fc.controlPlayer]
+  toggle = "Управлять игроком"
+
+  [key.better_fc.tripod]
+  reset = "Сбросить штатив"
+
+  [key.better_fc.config]
+  open = "Настроить интерфейс"

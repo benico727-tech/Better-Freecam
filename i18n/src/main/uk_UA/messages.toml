@@ -1,0 +1,12 @@
+[better_fc.msg]
+enabled = "Вільна камера увімкнена."
+disabled = "Вільна камера вимкнена."
+invalidRegex = "Неприпустимий регулярний вираз: %s"
+
+  [better_fc.msg.tripod]
+  open = "Відкриття камери %s"
+  close = "Закриття камери %s"
+  reset = "Скинути камеру %s"
+
+  [better_fc.msg.restricted]
+  server = "Better FC обмежено на цьому сервері (%s)."

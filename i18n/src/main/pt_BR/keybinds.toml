@@ -1,0 +1,14 @@
+[key.category.better_fc]
+controls = "Better FC"
+
+[key.better_fc]
+toggle = "Alternar Better FC"
+
+  [key.better_fc.controlPlayer]
+  toggle = "Controlar Jogador"
+
+  [key.better_fc.tripod]
+  reset = "Redefinir Tripé"
+
+  [key.better_fc.config]
+  open = "GUI de opções"
