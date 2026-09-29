@@ -11,8 +11,7 @@ homepage = "https://github.com/benico727-tech/Better-Freecam"
 source = "https://github.com/benico727-tech/Better-Freecam"
 issues = "https://github.com/benico727-tech/Better-Freecam/issues"
 github_releases = "https://github.com/benico727-tech/Better-Freecam/releases"
-# No Better-Freecam accounts exist on these services yet. Keep the required
-# metadata fields neutral, and configure real project URLs/IDs before release.
+# Replace these placeholders if Better FC is published on these services.
 curseforge = "https://github.com/benico727-tech/Better-Freecam"
 modrinth = "https://github.com/benico727-tech/Better-Freecam"
 crowdin = "https://github.com/benico727-tech/Better-Freecam"

@@ -1,7 +1,7 @@
 # Contributing
 
-Please open an issue describing a bug or proposed change before starting a larger pull request. Include the Minecraft version, mod loader, Better FC version or commit, steps to reproduce, and any relevant logs. Remove tokens and personal information from logs before posting them.
+For bug reports, include your Minecraft version, mod loader, steps to reproduce the issue, and relevant logs. Remove personal information and tokens from logs first.
 
-For code changes, create a branch, keep the change focused, and open a pull request against `main`. Describe what changed, how you tested it, and which Minecraft and loader versions you tested. Run `./gradlew build` (or `.\gradlew.bat build` on Windows) when practical. If a dependency or version prevents the full build, state which task failed and include its error in the pull request.
+Keep pull requests focused. Tell us what changed and which versions you tested. For the current Fabric target, run `./gradlew :fabric:1.21.11:build` (or `.\gradlew.bat :fabric:1.21.11:build` on Windows). If the build fails, include the error in your PR.
 
-Contributions to this repository are distributed under the MIT License in [LICENSE](LICENSE). Keep existing copyright notices and identify any code copied from another project with its license.
+Please keep existing copyright notices. Contributions are licensed under [MIT](LICENSE).
