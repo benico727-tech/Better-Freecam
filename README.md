@@ -18,9 +18,7 @@ On Linux or macOS:
 ./gradlew :fabric:1.21.11:build
 ```
 
-Install Fabric API alongside the mod. Mod Menu is optional. Check your server's rules before using freecam in multiplayer.
-
-There is no release download yet. Please test a build in game before distributing it.
+Install Fabric API alongside the mod. Mod Menu is optional. Please check your Servers rules if you play multiplayer!
 
 ## Contributing
 
